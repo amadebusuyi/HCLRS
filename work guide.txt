@@ -1,0 +1,70 @@
+A1. Collection of data
+		directly from facility
+		LGA-LMCU
+		State-LMCU			 ##done##
+
+A2. Percentage of data collected
+		per LGA
+		The State at large   ##done##
+
+A3. Quality of data
+		Whether opening balance matches closing balance
+			On Browser verification			##done##
+			On Server verification       not-necessary
+
+B. Analysis of data
+		total stock out rate
+			per commodity
+				LGA per RP
+				State per RP
+				Facility per SPT
+				LGA per SPT
+				State per SPT
+			per selected commodity
+
+		total consumption per commodity
+			LGA per RP
+			State per RP
+			Facility per SPT (Selected period of time)
+			LGA per SPT
+			State per SPT
+
+		comparison of TC 
+			for different selected commodities
+			for different selected RP or SPT
+
+		Bargraphs
+		Pie Charts
+
+C1. Users Onboarding
+		Processing
+		Priviledges
+		Activities
+
+C2. Facilities Onboarding
+		List
+
+C3. Commodities Onboarding
+		List
+
+
+		IMPLEMENTATION PLAN
+
+====>> Web workers and SSE might add some spice! 
+		talk about making phonegap app look like native apps?
+			*<meta name="theme-color" content="#3f51b5">*
+
+===||=> Double tap on next leading to overlapping double com-report-form
+
+===||=> Download of stored entries from DB on commodities not showing on the first element immediately after page load but on nav back < it shows.
+
+===!=> Add sort by local government to State and Administrator.
+===!=> Editing and deleting
+===!=> Make sure that Oga stays on top.
+===!=> Sorting of role levels in admin display
+
+===!!!=> Deleting of stored entries in db.report for commodities set as not available just in case values have been stored in db before  <=!!!===
+
+I thought I fixed the delete issue but it looks like I haven't.
+
+===!=> Using submit report button to update all values is removing the uploaded indicator for commodities without any actual update.

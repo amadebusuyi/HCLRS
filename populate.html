@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>populate DB</title>
+</head>
+<body>
+    <!-- Jquery Core Js -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+<script type="text/javascript">
+
+	
+
+
+
+	for(var i = 0; i<ehfs.length; i++){
+		var hf = hfs[i];
+		var lga = "Owo";
+
+		$.get("staffdb.php?hfs="+hf+"&lga="+lga, function(data){
+			$('body').append(data+'<br>');
+		});
+
+	} 
+</script>
+</body>
+</html>
